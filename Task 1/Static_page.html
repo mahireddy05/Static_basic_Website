@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static basic Website</title>
+    <style>
+        body {
+    font-family: 'Roboto', Arial, sans-serif; /* Changing font to Roboto */
+    margin: 0;
+    padding: 0;
+    background-color: #c2fb9f; /* Changing background color */
+}
+
+nav {
+    background-color: #4CAF50; /* Changing navbar background color */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #2E8B57; /* Changing button background color */
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px; /* Adjusting button padding */
+    border-radius: 5px; /* Adding border-radius for button */
+    transition: background-color 0.3s ease;
+}
+
+.nav-icon:hover {
+    background-color: #3CB371; /* Changing button background color on hover */
+}
+
+.nav-icon:focus {
+    outline: none;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #4CAF50; /* Changing footer background color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 5px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar-brand">Main Front Page</div>
+        <div class="nav-icons">
+            <button class="nav-icon">Help</button>
+            <button class="nav-icon">Login</button>
+            <button class="nav-icon">Home</button>
+        </div>
+    </nav>
+    <div class="content">
+        <h2 style="color: #333;">Welcome to our Website!!</h2>
+        <p>We are very happy to see you in our main frame enjoy your day with us.</p>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <span class="social-icon">Facebook</span>
+            <span class="social-icon">Instagram</span>
+        </div>
+        <div>&copy; 2024 My Website. All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
